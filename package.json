@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/index.html\""
+  },
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Atindra",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "http-server": "^0.12.3"
+  }
+}
