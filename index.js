@@ -1,5 +1,5 @@
 const onClick = (event) => {
-    console.log("Button Clicked");
+    console.log("Button Click");
     window.open("http://localhost:1234/index2.html", "_blank"); /* http://localhost:1234/index2.html file:///Users/atindrajha/Downloads/html/index2.html*/
 };
 
